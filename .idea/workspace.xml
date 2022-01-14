@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6db4a0d-620b-4b50-ad54-48ad7f95a24b" name="Default Changelist" comment="first">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b6db4a0d-620b-4b50-ad54-48ad7f95a24b" name="Default Changelist" comment="Change Branch Name From Main To Prod">
+      <change afterPath="$PROJECT_DIR$/Domain/RecipeDomain.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642186940983</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change Branch Name From Main To Prod">
+      <created>1642187348611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642187348611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="Change Branch Name From Main To Prod" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Branch Name From Main To Prod" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -150,9 +157,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1642171745526" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1642187074000">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1642187449411">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1642187074000" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1642187449411" />
   </component>
 </project>
