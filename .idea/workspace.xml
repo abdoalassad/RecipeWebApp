@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6db4a0d-620b-4b50-ad54-48ad7f95a24b" name="Default Changelist" comment="">
+    <list default="true" id="b6db4a0d-620b-4b50-ad54-48ad7f95a24b" name="Default Changelist" comment="first">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +39,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -62,10 +74,33 @@
       <option name="presentableId" value="Default" />
       <updated>1642166353820</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1642186940983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642186940983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -75,6 +110,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="475" y="197" key="#Go_Modules/0.0.1366.728@0.0.1366.728" timestamp="1642166527191" />
+    <state x="437" y="188" key="#Notifications" timestamp="1642186953860">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1642186953860" />
     <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1642167141065">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -111,5 +150,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1642171745526" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1642187074000">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1642187074000" />
   </component>
 </project>
