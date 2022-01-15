@@ -11,13 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6db4a0d-620b-4b50-ad54-48ad7f95a24b" name="Default Changelist" comment="RecipeDomain Added">
-      <change afterPath="$PROJECT_DIR$/Controller/RecipeController.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/RecipeService.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/RecipeDomain.go" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/RecipeDomain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controller/RecipeController.go" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/RecipeController.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/RecipeService.go" beforeDir="false" afterPath="$PROJECT_DIR$/Service/RecipeService.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642187954419</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="RecipeDomain Added">
+      <created>1642218324507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642218324507</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,65 +147,49 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="437" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1642186953860" />
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1642218206833">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1642249019668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642218206833" />
-    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1642218206833">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
+    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1642249019668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642218206833" />
-    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1642218206833">
+    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
+    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1642249019667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642218206833" />
-    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1642218206833">
+    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642249019667" />
+    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1642249019668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642218206833" />
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1642218206745">
+    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1642249019668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642218206745" />
-    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1642218206745">
+    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
+    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1642249019668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1642218206745" />
-    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1642218206745">
+    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
+    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1642249019668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1642218206745" />
-    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1642218206745">
+    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
+    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1642249019668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1642218206745" />
+    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
     <state x="184" y="9" key="SettingsEditor" timestamp="1642171745526">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1642171745526" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1642187967060">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1642218410177">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1642187967060" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1642218410177" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1642217377285">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1642217377285" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Server.go</url>
-          <line>18</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/Server.go</url>
-          <line>19</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

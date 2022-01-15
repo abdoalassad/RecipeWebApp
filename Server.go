@@ -19,5 +19,14 @@ func main() {
 	server.GET("/recipes", func(context *gin.Context) {
 		context.JSON(200, recipeController.GetAllRecipes())
 	})
+	server.PUT("/recipes", func(context *gin.Context) {
+		context.JSON(200, recipeController.UpdateRecipe(context))
+	})
+	server.DELETE("/recipes/:id", func(context *gin.Context) {
+		context.JSON(200, recipeController.DeleteRecipe(context))
+	})
+	server.GET("/recipes/search", func(context *gin.Context) {
+		context.JSON(200, recipeController.SearchByTag(context))
+	})
 	_ = server.Run(":8090")
 }
