@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,11 +13,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6db4a0d-620b-4b50-ad54-48ad7f95a24b" name="Default Changelist" comment="RecipeDomain Added">
+    <list default="true" id="b6db4a0d-620b-4b50-ad54-48ad7f95a24b" name="Default Changelist" comment="Update Recipe , Delete Recipe , Search By Tag Added">
+      <change afterPath="$PROJECT_DIR$/Auth/AuthService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Config/EntityManagerConfig.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/AuthController.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/User.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/mod/cache/lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controller/RecipeController.go" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/RecipeController.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/RecipeDomain.go" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/RecipeDomain.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server.go" beforeDir="false" afterPath="$PROJECT_DIR$/Server.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Service/RecipeService.go" beforeDir="false" afterPath="$PROJECT_DIR$/Service/RecipeService.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="$USER_HOME$/go/go1.16.10" />
+  <component name="GOROOT" url="file://$USER_HOME$/go/go1.18beta2" />
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -37,8 +48,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="40e8132b-913e-4aa5-a925-f73687ef28e6" />
+        <option name="url" value="https://github.com/abdoalassad/RecipeWebApp.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+    <option name="useGoPathFromSystemEnvironment" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23gr1CPQ4qLtWe1Bw7Mm1sqspOP" />
   <component name="ProjectLevelVcsManager">
@@ -49,24 +72,33 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mongo" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="true" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
+    <property name="go.format.on.save.advertiser.fired" value="true" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="ssh.settings" />
+    <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RunManager">
     <configuration name="go build RecipeWebApp" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="RecipeWebApp" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/Server.go" />
       <package value="RecipeWebApp" />
       <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Server.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -112,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642218324507</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update Recipe , Delete Recipe , Search By Tag Added">
+      <created>1642249318039</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642249318039</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,66 +169,60 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
     <MESSAGE value="Change Branch Name From Main To Prod" />
     <MESSAGE value="RecipeDomain Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="RecipeDomain Added" />
+    <MESSAGE value="Update Recipe , Delete Recipe , Search By Tag Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Recipe , Delete Recipe , Search By Tag Added" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="475" y="197" key="#Go_Modules" timestamp="1642166527191">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="475" y="197" key="#Go_Modules/0.0.1366.728@0.0.1366.728" timestamp="1642166527191" />
-    <state x="437" y="188" key="#Notifications" timestamp="1642186953860">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="437" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1642186953860" />
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1642249019668">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
-    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1642249019668">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
-    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1642249019667">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1642249019667" />
-    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1642249019668">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom" timestamp="1642249019668">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
-    <state width="1323" height="214" key="GridCell.Tab.1.center" timestamp="1642249019668">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
-    <state width="1323" height="214" key="GridCell.Tab.1.left" timestamp="1642249019668">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
-    <state width="1323" height="214" key="GridCell.Tab.1.right" timestamp="1642249019668">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="214" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1642249019668" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1642171745526">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1642171745526" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1642218410177">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1642218410177" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1642217377285">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1642217377285" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Service/RecipeService.go</url>
+          <line>61</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Auth/AuthService.go</url>
+          <line>144</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Auth/AuthService.go</url>
+          <line>61</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Auth/AuthService.go</url>
+          <line>52</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Auth/AuthService.go</url>
+          <line>155</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Auth/AuthService.go</url>
+          <line>105</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Auth/AuthService.go</url>
+          <line>75</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Auth/AuthService.go</url>
+          <line>150</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

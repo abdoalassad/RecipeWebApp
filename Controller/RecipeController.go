@@ -4,14 +4,15 @@ import (
 	"RecipeWebApp/Domain"
 	"RecipeWebApp/Service"
 	"github.com/gin-gonic/gin"
+	"net/http"
 )
 
 type RecipeController interface {
-	AddRecipe(ctx *gin.Context) []Domain.RecipeDomain
-	GetAllRecipes() []Domain.RecipeDomain
-	UpdateRecipe(ctx *gin.Context) Domain.RecipeDomain
+	AddRecipe(ctx *gin.Context) *gin.Context
+	GetAllRecipes(ctx *gin.Context) *gin.Context
+	UpdateRecipe(ctx *gin.Context) string
 	DeleteRecipe(ctx *gin.Context) string
-	SearchByTag(ctx *gin.Context) []Domain.RecipeDomain
+	//SearchByTag(ctx *gin.Context) []Domain.RecipeDomain
 }
 
 type recipeController struct {
@@ -24,32 +25,34 @@ func NewRecipeController(service Service.RecipeService) RecipeController {
 	}
 }
 
-func (controller *recipeController) AddRecipe(ctx *gin.Context) []Domain.RecipeDomain {
+func (controller *recipeController) AddRecipe(ctx *gin.Context) *gin.Context {
 	var recipes []Domain.RecipeDomain
 	err := ctx.BindJSON(&recipes)
 	if err != nil {
-		return recipes
+		ctx.JSON(http.StatusBadRequest, gin.H{"error": err})
+		return ctx
 	}
-	controller.recipeService.AddRecipe(recipes)
-	return recipes
+	return controller.recipeService.AddRecipe(recipes, ctx)
 }
 
-func (controller *recipeController) GetAllRecipes() []Domain.RecipeDomain {
-	return controller.recipeService.GetAllRecipes()
+func (controller *recipeController) GetAllRecipes(c *gin.Context) *gin.Context {
+	return controller.recipeService.GetAllRecipes(c)
 }
 
-func (controller *recipeController) UpdateRecipe(ctx *gin.Context) Domain.RecipeDomain {
+func (controller *recipeController) UpdateRecipe(ctx *gin.Context) string {
+	id := ctx.Param("id")
 	var recipe Domain.RecipeDomain
 	err := ctx.BindJSON(&recipe)
 	if err != nil {
-		return recipe
+		return "There Was An Error While Binding To JSON"
 	}
-	return controller.recipeService.UpdateRecipe(recipe)
+	return controller.recipeService.UpdateRecipe(recipe, id)
 }
 func (controller *recipeController) DeleteRecipe(ctx *gin.Context) string {
 	return controller.recipeService.DeleteRecipe(ctx.Param("id"))
 }
-func (controller *recipeController) SearchByTag(ctx *gin.Context) []Domain.RecipeDomain {
-	tag := ctx.Query("tag")
-	return controller.recipeService.SearchByTag(tag)
-}
+
+//func (controller *recipeController) SearchByTag(ctx *gin.Context) []Domain.RecipeDomain {
+//	tag := ctx.Query("tag")
+//	return controller.recipeService.SearchByTag(tag)
+//}
